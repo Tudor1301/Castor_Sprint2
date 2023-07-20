@@ -8,11 +8,13 @@ import com.Castor_Sprint2.utilities.ConfigurationReader;
 import com.Castor_Sprint2.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 /*
 In this class we will be able to create "pre" and "post" condition
@@ -28,6 +30,8 @@ public class Hooks {
 
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
     }
+
+
 
     //@Before (value = "@login", order = 2 )
     public void login_scenario_before(){
