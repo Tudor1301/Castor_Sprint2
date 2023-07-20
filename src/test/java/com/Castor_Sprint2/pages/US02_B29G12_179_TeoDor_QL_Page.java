@@ -14,4 +14,8 @@ public class US02_B29G12_179_TeoDor_QL_Page {
 
     @FindBy(xpath = "//a[@class='help no-hash']")
     public WebElement qsign;
+
+    @FindBy(xpath = "//i[@class='mail-icon']")
+    public WebElement recentEmails;
+
 }
