@@ -11,7 +11,6 @@ public class US02_B29G12_179_TeoDor_QL_Page {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-
     @FindBy(xpath = "//a[@class='help no-hash']")
     public WebElement qsign;
 
