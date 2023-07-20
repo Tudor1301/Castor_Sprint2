@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "com/Castor_Sprint2/step_definitions",
-        dryRun = true,
-        tags = " @wip",
+        dryRun = false,
+        tags = "@US02_B29G12_179_TeoDor",
         publish = true //generating a report with public link
 )
 public class CukesRunner {}
